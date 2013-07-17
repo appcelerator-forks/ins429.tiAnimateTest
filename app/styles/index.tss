@@ -1,0 +1,11 @@
+'.container': {
+	backgroundColor:'white'
+},
+'#spriteOne': {
+	width: '100dp',
+	height: '100dp',
+  top: 100,
+  left: 100,
+	color: '#000',
+  image: '/007/1.png'
+}
