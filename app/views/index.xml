@@ -1,5 +1,13 @@
 <Alloy>
 	<Window class="container">
-		<ImageView id="spriteOne"></ImageView>
+    <View id="viewOne">
+      <Label id="mousePos">mouse</Label>
+  		<ImageView id="spriteOne" class="sprite"></ImageView>
+      <ImageView id="spriteTwo" class="sprite"></ImageView>
+      <ImageView id="spriteThree" class="sprite"></ImageView>
+      <View id="targetOne" class="target"></View>
+      <View id="targetTwo" class="target"></View>
+      <View id="targetThree" class="target"></View>
+    </View>
 	</Window>
 </Alloy>

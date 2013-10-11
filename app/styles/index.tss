@@ -1,11 +1,54 @@
 '.container': {
 	backgroundColor:'white'
 },
+'#viewOne': {
+  width: Titanium.UI.FILL,
+  height: Titanium.UI.FILL,
+  backgroundColor: '#ccc'
+},
 '#spriteOne': {
-	width: '100dp',
-	height: '100dp',
   top: 100,
   left: 100,
 	color: '#000',
   image: '/007/1.png'
+},
+'#spriteTwo': {
+  top: 200,
+  left: 100,
+  color: '#000',
+  image: '/007/1.png'
+},
+'#spriteThree': {
+  top: 200,
+  left: 200,
+  color: '#000',
+  image: '/007/1.png'
+},
+'.sprite': {
+  width: 70,
+  height: 70,
+  zIndex: 2
+},
+'#mousePos': {
+  top: 0
+},
+'.target': {
+  width: 70,
+  height: 70,
+  backgroundColor: '#fff',
+  zIndex: 1
+},
+'#targetOne': {
+  left: 10,
+  top: 230,
+  backgroundColor: 'green'
+},
+'#targetTwo': {
+  left: 90,
+  top: 230,
+  backgroundColor: 'blue'
+},
+'#targetThree': {
+  left: 170,
+  top: 230
 }
